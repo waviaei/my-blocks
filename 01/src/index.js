@@ -12,7 +12,7 @@ registerBlockType( 'my-blocks/my-block-01', {
   icon: 'universal-access-alt',
   category: 'layout',
   example: {},
-  edit() {
+  edit( { props }) {
     return(
       <div style={ blockStyle }>Hello World, step 1 (from the editor).</div>
     );
